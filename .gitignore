@@ -1,0 +1,49 @@
+# Environment files (contain secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log
+storage/logs/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Assignment files (not part of submission)
+Instructions.md
+*.pdf
+
+# PHP specific
+*.cache
+.phpunit.result.cache
+/coverage
+
+# Laravel specific
+/storage/*.key
+Homestead.json
+Homestead.yaml
+
+# Puppeteer cache
+.cache/

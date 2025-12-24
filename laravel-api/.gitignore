@@ -1,0 +1,42 @@
+# Dependencies
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Bundled PHP (large binary files)
+/php/
+
+# Laravel specific
+/storage/*.key
+Homestead.json
+Homestead.yaml
+/bootstrap/cache/*.php
+
+# Environment files (contain secrets)
+.env
+.env.backup
+.env.production
+.env.local
+!.env.example
+
+# PHP specific
+*.cache
+*.log
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Testing
+.phpunit.result.cache
+/coverage
+
+# IDE and OS
+/.idea
+/.vscode
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Assignment files
+*.pdf
